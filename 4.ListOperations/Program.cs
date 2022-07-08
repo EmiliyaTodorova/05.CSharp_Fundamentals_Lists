@@ -56,7 +56,7 @@ namespace _4.ListOperations
 
                         for (int i = 0; i < count; i++)
                         {
-                            numbers.Insert(0, numbers.Count - 1);
+                            numbers.Insert(numbers.Insert(0, numbers[numbers.Count - 1]);
                             numbers.RemoveAt(numbers.Count-1);
                         }
                     }
